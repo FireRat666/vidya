@@ -1,7 +1,7 @@
 class PlaylistPlayer {
   constructor() {
 	console.log("constructor");
-    this.hostUrl = 'vidya.firer.at';
+    this.hostUrl = 'vidya.sdq.st';
     this.currentScript = Array.from(document.getElementsByTagName('script')).slice(-1)[0];
     this.init();
   }
