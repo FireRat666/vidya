@@ -262,32 +262,32 @@ class Core{
     handControlsContainer.setAttribute("sq-lefthand", "whoToShow: " + window.user.id);
     [
       {
-        image: "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Playlist.png?v=1711786451727",
+        image: "https://vidya.firer.at/assets/icons/Nyx/Menu.png",
         position: "-1 -0.2 0.4", 
         callback: () => this.openPlaylist()
       },
       {
-        image: "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Sync_Bk.png?v=1711785429431",
+        image: "https://vidya.firer.at/assets/icons/Nyx/Back.png",
         position: "-1 -0.2 0", 
         callback: () => this.sendBrowserMessage({path: Commands.SKIP_BACK})
       },
       {
-        image: "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Sync_FW.png?v=1711785429798",
+        image: "https://vidya.firer.at/assets/icons/Nyx/Forward.png",
         position: "-1 -0.2 -0.4", 
         callback: () => this.sendBrowserMessage({path: Commands.SKIP_FORWARD})
       },
       {
-        image: "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Vol_Mute_Off.png?v=1711785430667",
+        image: "https://vidya.firer.at/assets/icons/Nyx/Mute.png",
         position: "-1 0.2 0.4", 
         callback: () => this.mute()
       },
       {
-        image: "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Vol_Dn.png?v=1711785430202",
+        image: "https://vidya.firer.at/assets/icons/Nyx/Low.png",
         position: "-1 0.2 0", 
         callback: () => this.volume(false)
       },
       {
-        image: "https://cdn.glitch.global/47f0acb4-4420-4f3f-bb01-dba17f8c0edb/Vol_Up.png?v=1711785431096",
+        image: "https://vidya.firer.at/assets/icons/Nyx/High.png",
         position: "-1 0.2 -0.4", 
         callback: () => this.volume(true)
       }
